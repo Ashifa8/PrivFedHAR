@@ -1,0 +1,5 @@
+model,accuracy,f1_macro,auc_macro,std,federated,dp,evaluation
+Simple_LSTM,0.8421,0.7510,0.9385,0.183,No,None,LOSO
+Simple_GRU,0.8684,0.7932,0.9572,0.171,No,None,LOSO
+CNN_LSTM,0.8806,0.8058,0.9531,0.164,No,None,LOSO
+PrivFedHAR,0.9443,0.9278,0.8236,0.0413,Yes,(epsilon_delta)-DP,LOSO

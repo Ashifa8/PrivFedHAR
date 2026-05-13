@@ -1,0 +1,4 @@
+configuration,accuracy,f1_macro,delta_acc,privacy,rounds,note
+PrivFedHAR_Full,0.9444,0.9278,0.0000,(epsilon_delta)-DP,30,9-fold LOSO R=30
+without_personalization_SALN,0.5315,0.4032,-0.4129,(epsilon_delta)-DP,10,single-fold R=10
+without_differential_privacy,0.9741,0.9694,+0.0297,None,10,single-fold R=10
